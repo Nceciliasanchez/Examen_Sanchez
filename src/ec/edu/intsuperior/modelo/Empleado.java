@@ -10,7 +10,7 @@ package ec.edu.intsuperior.modelo;
  * @author Point
  */
 public class Empleado {
-    public class Empleado extends Persona{
+   public class Empleado extends Persona{
     double sueldoBruto;
 
     public Empleado() {
@@ -42,5 +42,3 @@ public class Empleado {
    
     }
 
-
-}

@@ -9,44 +9,7 @@ package ec.edu.intsuperior.modelo;
  *
  * @author Point
  */
-public class Cliente {
-
-    public void setCi(String showInputDialog) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setFechadenacimiento(String showInputDialog) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setApellido1(String showInputDialog) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setDireccion(String showInputDialog) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setTelefono(String showInputDialog) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setApellido2(String showInputDialog) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setNombre2(String showInputDialog) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setNombre(String showInputDialog) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setCorreo(String showInputDialog) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-   public class Cliente extends Persona{
+public class Cliente extends Persona{
     private String Telefonocontacto;
     
     public Cliente (){
@@ -72,5 +35,4 @@ public class Cliente {
         return super.toString(); 
     
     }
-} 
 }

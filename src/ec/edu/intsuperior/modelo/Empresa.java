@@ -9,8 +9,7 @@ package ec.edu.intsuperior.modelo;
  *
  * @author Point
  */
-public class Empresa {
-    public class Empresa extends Persona{
+public class Empresa extends Persona{
     private String NombreEmpresa;
    
     public Empresa() {
@@ -41,5 +40,3 @@ public class Empresa {
 }
     
 
-
-}
